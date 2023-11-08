@@ -30,9 +30,9 @@ const router = createBrowserRouter([
         element : <h2>Page Not Found</h2>
       },
       {
-        path : '/galleries/:galleryid',
-        element : <GalleryView />
-      }
+        path : '/galleries/:galleryId',
+        element : <GalleryView galleries={harvardArt.records}/>
+      },
     ]
   }
  
